@@ -1,0 +1,1275 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+nav {
+    
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 30px;
+    
+    
+}
+
+::selection  {
+    background-color:rgb(0, 179, 155) ; 
+    color: #333; 
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li  {
+    text-decoration: none;
+    color: #ABABAB;
+    font-size: 15px;
+    line-height: 30px;
+    transition: .3s;
+}
+
+#about {
+    color: #05C1A2;
+}
+
+.sub-menu{
+    
+    display: none;
+}
+li:hover{
+    color:rgb(0, 179, 155) ;
+    cursor: pointer;
+    transition: .5s;
+}
+.menu-list:hover .sub-menu{
+    display: block;
+}
+.sub-menu{
+    width: 180px;
+    height: 220px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    position: absolute;
+    margin-left: -100px;
+    background-color: white;
+}
+.sub-menu-list{
+    line-height: 18px;
+    height: 32px;
+    width: 200px;
+    padding-left: 20px;
+    list-style: none;
+    margin-left: -40px;
+    padding-top:10px ;
+
+
+}
+.sub-menu-list:hover{
+    background-color: #F6F8F8; 
+     /* background-color: rgb(0, 179, 155); */
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    position: relative;
+    top: 20px;
+}
+.text h1{
+    color: #05C1A2;
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    line-height: 44px;
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    top:20px;
+    }
+
+    .p1{
+        display: flex;
+        width: 1015px;
+        margin-left: 227px;
+        margin-top: 30px;
+    }
+    p{
+        width: 477.5px;
+        height: 112px;
+        font-family:  Roboto, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 400;
+        color:#7474A1
+    }
+    
+    .parag2{
+        margin-left: 20px;
+    }
+    
+
+    .card{
+        display:inline-block;
+        background-color: #00CCB1;
+        padding:32px 32px 0px 32px;
+        height:345px;
+        border-radius: 5%;
+        margin-left: 300px;
+    }
+    .fa-users{
+        align-self: center;
+        color:white;
+    }
+
+    .card-title{
+        color:white;
+        font-size: 30px;
+        line-height: 34px;
+        font-weight: 800;
+        font-family:"Work Sans", Arial, sans-serif
+    }
+    .card-text{
+        color: white;
+        font-family:"Work Sans",Arial,sans-serif ;
+        font-size:24px;
+        line-height:28.8px;
+    }
+
+    .ss{
+        color:#FFFFFF ;
+        font-family:Roboto,Arial,sans-serif;
+        font-size :19.2px;
+        line-height:24.96px;
+        text-decoration: underline;
+        position: relative;
+        top:40px;
+        left:10px;
+        cursor: pointer;
+    }
+
+    #pays {
+        content-visibility: hidden;
+        background-color:#00CCB1;
+        font: 400px 22px Roboto,Arial,sans-serif;
+        border-style: none;
+        width: 100px;
+        position: relative;
+        top: 40px;
+        left:10px;
+        padding: 5px 5px ;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    #list::-ms-expand{
+        display:none;
+        
+    }
+
+    #list: focus{
+        outline:none;
+        box-shadow: 0 0 10px -1px;
+    }
+
+    #list{
+        background-color: #FFFFFF;
+    }
+
+.fa-chevron-down{
+    size: 10px;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    top:40px;
+    left:5%;
+}
+
+.card2{
+    
+    background-color:rgb(61, 131, 223);
+    padding:32px 32px 0px 32px;
+    height:345px;
+    width:311.625px;
+    border-radius: 5%;
+    margin-left: 30px;
+}
+
+.fa-user-nurse{
+    color: white;
+    size: 30px;
+    
+}
+
+.card-title2{
+    color:white;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 800;
+    font-family:"Work Sans", Arial, sans-serif
+}
+.card-text2{
+    color: white;
+    font-family:"Work Sans",Arial,sans-serif ;
+    font-size:24px;
+    line-height:28.8px;
+}
+
+.ss2{
+    color:#FFFFFF ;
+    font-family:Roboto,Arial,sans-serif;
+    font-size :19.2px;
+    line-height:24.96px;
+    text-decoration: underline;
+    position: relative;
+    top:70px;
+    left:10px;
+    cursor: pointer;
+}
+
+#pays2 {
+    content-visibility: hidden;
+    background-color:rgb(61, 131, 223);
+    font: 400px 22px Roboto,Arial,sans-serif;
+    border-style: none;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    left:10px;
+    padding: 5px 5px ;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#fa-chevron-down2{
+size: 10px;
+cursor: pointer;
+color: white;
+position: relative;
+top:70px;
+left:5%;
+}
+
+
+
+.card3{
+    background-color:rgb(27, 39, 52);
+    padding:32px 32px 0px 32px;
+    height:345px;
+    width:311.625px;
+    border-radius: 5%;
+    margin-left: 30px;
+    }
+
+    .card-title3{
+        color:white;
+        font-size: 30px;
+        line-height: 34px;
+        font-weight: 800;
+        font-family:"Work Sans", Arial, sans-serif
+    }
+
+    .card-text3{
+        color: white;
+        font-family:"Work Sans",Arial,sans-serif ;
+        font-size:24px;
+        line-height:28.8px;
+    }
+
+    .cartes{
+        display:flex;
+        flex-direction: row;
+        margin-right: 250px;
+    }
+    
+    .ss3{
+        color:#FFFFFF ;
+        font-family:Roboto,Arial,sans-serif;
+        font-size :19.2px;
+        line-height:24.96px;
+        text-decoration: underline;
+        position: relative;
+        top:20px;
+        left:10px;
+        cursor: pointer;
+    }
+    .svc{
+        color:#FFFFFF ;
+        font-family:Roboto,Arial,sans-serif;
+        font-size :19.2px;
+        line-height:24.96px;
+        text-decoration: underline;
+        position: relative;
+        top:30px;
+        right:5px;
+        cursor: pointer;
+    }
+    
+    #pays3 {
+        content-visibility: hidden;
+        background-color:#1B2734;
+        font: 400px 22px Roboto,Arial,sans-serif;
+        border-style: none;
+        width: 20px;
+        position: relative;
+        top: 20px;
+        left:10px;
+        padding: 5px 5px ;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    #pays4 {
+        content-visibility: hidden;
+        background-color:#1B2734;
+        font: 400px 22px Roboto,Arial,sans-serif;
+        border-style: none;
+        width: 20px;
+        position: relative;
+        top: 30px;
+        left:25px;
+        padding: 5px 5px ;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+    
+    #fa-chevron-down3{
+    size: 10px;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    top:20px;
+    left:5%;
+    }
+
+    #fa-chevron-down4{
+        size: 10px;
+        cursor: pointer;
+        color: white;
+        position: relative;
+        top:10px;
+        left:210px;
+        }
+
+.fa-building{
+    color:white;
+}
+
+.txt {
+    font-family:"work sans",Arial,sans-serif ;
+    font-size: 18px;
+    font-weight: 200;
+    width: 300px;
+    height:90px;
+    color:#05C1A2;
+    margin: 15px,0,15px,0;
+}
+
+
+path {
+    fill :rgb(171,171,171);
+    transition: .3s;
+    height: 20px;
+    width: 125px;
+}
+
+path:hover{
+    fill:#00CCB1;
+}
+
+.location li{
+    list-style: none;
+
+}
+
+.location img{
+    filter: grayscale(100%);
+}
+
+.location img:hover{
+    filter: grayscale(0%);
+}
+
+.partie3{
+    display:flex;
+    margin-left: 300px;
+    margin-top: 40px;;
+    width:1015px;
+    height:156.4px;
+}
+
+.location{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+#svg1{
+    position:relative;
+    left:55px;
+}
+
+#svg2{
+    position : relative;
+    left:80px;
+}
+
+#svg3{
+    position : relative;
+    left:100px;
+}
+
+#svg4{
+    position : relative;
+    left:140px;
+}
+
+#svg5{
+    position : relative;
+    top:50px;
+    right:445px;
+}
+
+#img0{
+    position: relative;
+    top:48px;
+    right:405px;
+}
+
+#img1{
+    position:relative;
+    left:360px;
+    top:20px;
+    width:110px;
+    height: 30.8px;
+}
+
+#img2{
+    position:relative;
+    left:400px;
+    top:10px;
+    width:42.7px;
+    height: 34px;
+}
+
+#img3{
+    position:relative;
+    left:440px;
+    top:10px;
+    width: 72.4px;
+    height: 34px;
+}
+
+#img4{
+    position:relative;
+    top:65px;
+    right:170px;
+    width:100px;
+    height: 42.8px;
+}
+
+.partie4{
+    height:700px;
+    width:1468px;
+    background-color: #E5FAF8;
+    margin:50px 0 88px 0;
+    display:grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 1468px;
+    
+}
+
+.carte2p4{
+grid-column-start: 2;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end:1;
+position: relative;
+left: 700px;
+}
+.carte1p4{
+    grid-column-start:2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:1;
+    position: relative;
+    left: 400px;
+    }
+
+    .txtp4  {
+        font-family: "work sans" ,Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        color:#00B39B;
+        position: relative;
+        left:300px;
+        height: 700px;
+    }
+
+    .txtp4 p{
+        font-family: Roboto,Arial,sans-serif;
+        font-size: 14px;
+        color:rgb(116,116,116);
+        position: relative;
+        bottom: 50px;
+    }
+
+    #capture4 {
+        background-color: transparent;
+        height:365px;
+        width: 550px;
+        position: relative;
+        left:-150px;
+        top: 20px;;
+    }
+
+    .carte1p4{
+        width: 200px;
+        height:250px;
+    }
+
+    .caq{
+        background-color: white;
+        height: 270px;
+        width: 50px;
+        text-align: center;
+        border-radius: 2%;
+        position:relative;
+        top:20px;
+    }
+
+    #drapeau{
+        position: relative;
+        top:15px;
+    }
+
+    .car-text{
+        font-family: Roboto,Arial,sans-serif;
+        font-size: 13px;
+        width: 230px;
+        position:relative;
+        right: -20px;
+        bottom: 22px;
+        letter-spacing: -0.5px;
+    }
+
+    .car-title{
+        font-family: "work sans",Arial,sans-serif;
+        font-size: 24px;
+        text-align: center;
+        color: #00B39B;
+        
+    }
+
+    .caq2{
+        background-color: white;
+        height: 250px;
+        text-align: center;
+        border-radius: 2%;
+        position:relative;
+        top:50px;
+        padding-top: 15px;
+    }
+
+    .car-body2{
+        width: 200px;
+    }
+
+    #personnel{
+        position: relative;
+        top:15px;
+    }
+
+    .car-text2{
+        font-family: Roboto,Arial,sans-serif;
+        font-size: 13px;
+        width:200px;
+        height:50px;
+        position:relative;
+        right: -20px;
+        letter-spacing: -0.5px;
+
+        
+    }
+
+    .car-title2{
+        font-family: "work sans",Arial,sans-serif;
+        font-size: 24px;
+        width: 270px;
+        text-align: center;
+        color: #00B39B;
+        
+    }
+
+    .caq3{
+        background-color: white;
+        height: 250px;
+        width: 50px;
+        text-align: center;
+        border-radius: 4%;
+        position:relative;
+        top:50px;
+        padding-top: 15px;
+    }
+
+    .car-body3{
+        width: 200px;
+    }
+
+    #box{
+        position: relative;
+        top:15px;
+    }
+
+    .car-text3{
+        font-family: Roboto,Arial,sans-serif;
+        font-size: 13px;
+        width:200px;
+        height:50px;
+        position:relative;
+        right: -20px;
+        letter-spacing: -0.5px;
+
+        
+    }
+
+    .car-title3{
+        font-family: "work sans",Arial,sans-serif;
+        font-size: 24px;
+        width: 270px;
+        text-align: center;
+        color: #00B39B;
+        
+    }
+
+    .caq4{
+        background-color: white;
+        height: 250px;
+        width: 220px;
+        text-align: center;
+        border-radius: 4%;
+        position:relative;
+        top:50px;
+        
+    }
+
+    .car-body4{
+        width: 200px;
+    }
+
+    #people{
+        position: relative;
+        top:15px;
+    }
+
+    .car-text4{
+        font-family: Roboto,Arial,sans-serif;
+        font-size: 13px;
+        height:50px;
+        width: 270px;
+        letter-spacing: -0.5px;
+
+        
+    }
+
+    .car-title4{
+        font-family: "work sans",Arial,sans-serif;
+        font-size: 24px;
+        width: 270px;
+        text-align: center;
+        color: #00B39B;
+        
+    }
+
+    .carte2p4{
+        position: relative;
+        bottom: 40px;
+    }
+
+    .carte1p4{
+        position: relative;
+        top:55px;
+        right:20px
+    }
+
+    .improve{
+        font-family:"work sans",Arial,sans-serif;
+        font-size: 20px;
+        letter-spacing: -0.3px;
+        line-height: 39px;
+        text-align: center;
+        color:#00B39B;
+    }
+
+.improve p{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    color:#747474;
+    height: 80px;
+    width:460px;
+    position: relative;
+    left:500px;
+}
+
+.partie6{
+    height: 1685.8px;
+    width: 1500px;
+    
+}
+
+.cad{
+    height: 341.6px;
+    width:311px;
+    border:1px solid white;
+    max-width: 311px;
+    cursor: pointer;
+    position:relative;
+    right:50px;
+}
+
+.cad:hover{
+    box-shadow: 0 5px 10px 0 rgb(194, 194, 194);
+    transition: box-shadow .2s ease 0s;
+}
+
+.cad-title{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+    color: rgb(116,116,116);
+    position:relative;
+    left:20px
+}
+
+.button{
+    background-color:#3d83df; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    position:relative;
+    left:160px;
+    bottom: 45px;
+
+}
+
+.button:hover{
+    background-color: rgb(63, 63, 242);
+    transition: .7s;
+}
+
+#pays1{
+    height:270px;
+    width: 289px;
+}
+
+.cad2{
+    height: 341.6px;
+    width:311px;
+    border:1px solid white;
+    max-width: 311px;
+    cursor: pointer;
+    position:relative;
+    right:30px;
+}
+
+.cad2:hover{
+    box-shadow: 0 5px 10px 0 rgb(194, 194, 194);
+    transition: box-shadow .2s ease 0s;
+}
+
+.cad-title2{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+    color: rgb(116,116,116);
+    position:relative;
+    left:20px
+}
+
+.button2{
+    background-color:#3d83df; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    position:relative;
+    left:160px;
+    bottom: 45px;
+
+}
+
+.button2:hover{
+    background-color: rgb(63, 63, 242);
+    transition: .7s;
+}
+
+#barcelona{
+    height:270px;
+    width: 289px;
+}
+
+.cad3{
+    height: 341.6px;
+    width:311px;
+    border:1px solid white;
+    max-width: 311px;
+    cursor: pointer;
+}
+
+.cad3:hover{
+    box-shadow: 0 5px 10px 0 rgb(194, 194, 194);
+    transition: box-shadow .2s ease 0s;
+}
+
+.cad-title3{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+    color: rgb(116,116,116);
+    position:relative;
+    left:20px
+}
+
+.button3{
+    background-color:#3d83df; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    position:relative;
+    left:160px;
+    bottom: 45px;
+
+}
+
+.button3:hover{
+    background-color: rgb(63, 63, 242);
+    transition: .7s;
+}
+
+#munich{
+    height:270px;
+    width: 289px;
+}
+
+.monde{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.cad4{
+    height: 341.6px;
+    width:311px;
+    border:1px solid white;
+    max-width: 311px;
+    cursor: pointer;
+    position:relative;
+    right:50px;
+}
+
+.cad4:hover{
+    box-shadow: 0 5px 10px 0 rgb(194, 194, 194);
+    transition: box-shadow .2s ease 0s;
+}
+
+.cad-title4{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+    color: rgb(116,116,116);
+    position:relative;
+    left:20px
+}
+
+.button4{
+    background-color:#3d83df; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    position:relative;
+    left:160px;
+    bottom: 45px;
+
+}
+
+.button4:hover{
+    background-color: rgb(63, 63, 242);
+    transition: .7s;
+}
+
+#istanbul{
+    height:270px;
+    width: 289px;
+}
+
+.cad5{
+    height: 341.6px;
+    width:311px;
+    border:1px solid white;
+    max-width: 311px;
+    cursor: pointer;
+    position:relative;
+    right:30px;
+}
+
+.cad5:hover{
+    box-shadow: 0 5px 10px 0 rgb(194, 194, 194);
+    transition: box-shadow .2s ease 0s;
+}
+
+.cad-title5{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+    color: rgb(116,116,116);
+    position:relative;
+    left:20px
+}
+
+.button5{
+    background-color:#3d83df; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    position:relative;
+    left:160px;
+    bottom: 45px;
+
+}
+
+.button5:hover{
+    background-color: rgb(63, 63, 242);
+    transition: .7s;
+}
+
+#rome{
+    height:270px;
+    width: 289px;
+}
+
+.cad6{
+    height: 341.6px;
+    width:311px;
+    border:1px solid white;
+    max-width: 311px;
+    cursor: pointer;
+}
+
+.cad6:hover{
+    box-shadow: 0 5px 10px 0 rgb(194, 194, 194);
+    transition: box-shadow .2s ease 0s;
+}
+
+.cad-title6{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+    color: rgb(116,116,116);
+    position:relative;
+    left:20px
+}
+
+.button6{
+    background-color:#3d83df; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    position:relative;
+    left:160px;
+    bottom: 45px;
+
+}
+
+.button6:hover{
+    background-color: rgb(63, 63, 242);
+    transition: .7s;
+}
+
+#bologna{
+    height:270px;
+    width: 289px;
+}
+
+.monde2{
+    display:flex;
+    justify-content: right;
+}
+
+.cad7{
+    height: 341.6px;
+    width:311px;
+    border:1px solid white;
+    max-width: 311px;
+    cursor: pointer;
+    position:relative;
+    right:50px;
+}
+
+.cad7:hover{
+    box-shadow: 0 5px 10px 0 rgb(194, 194, 194);
+    transition: box-shadow .2s ease 0s;
+}
+
+.cad-title7{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+    color: rgb(116,116,116);
+    position:relative;
+    left:20px
+}
+
+.button7{
+    background-color:#3d83df; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    position:relative;
+    left:160px;
+    bottom: 45px;
+}
+
+.button7:hover{
+    background-color: rgb(63, 63, 242);
+    transition: .7s;
+}
+
+#curitiba{
+    height:270px;
+    width: 289px;
+}
+
+.cad8{
+    height: 341.6px;
+    width:311px;
+    border:1px solid white;
+    max-width: 311px;
+    cursor: pointer;
+    position:relative;
+    right:30px;
+}
+
+.cad8:hover{
+    box-shadow: 0 5px 10px 0 rgb(194, 194, 194);
+    transition: box-shadow .2s ease 0s;
+}
+
+.cad-title8{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+    color: rgb(116,116,116);
+    position:relative;
+    left:20px
+}
+
+.button8{
+    background-color:#3d83df; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    position:relative;
+    left:160px;
+    bottom: 45px;
+}
+
+.button8:hover{
+    background-color: rgb(63, 63, 242);
+    transition: .7s;
+}
+
+#riodejaneiro{
+    height:270px;
+    width: 289px;
+}
+
+.cad9{
+    height: 341.6px;
+    width:311px;
+    border:1px solid white;
+    max-width: 311px;
+    cursor: pointer;
+}
+
+.cad9:hover{
+    box-shadow: 0 5px 10px 0 rgb(194, 194, 194);
+    transition: box-shadow .2s ease 0s;
+}
+
+.cad-title9{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+    color: rgb(116,116,116);
+    position:relative;
+    left:20px
+}
+
+.button9{
+    background-color:#3d83df; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    position:relative;
+    left:160px;
+    bottom: 45px;
+
+}
+
+.button9:hover{
+    background-color: rgb(63, 63, 242);
+    transition: .7s;
+}
+
+#mexico-city{
+    height:270px;
+    width: 289px;
+}
+
+.monde3{
+    display:flex;
+    justify-content: right;
+}
+
+.cad10{
+    height: 341.6px;
+    width:311px;
+    border:1px solid white;
+    max-width: 311px;
+    cursor: pointer;
+}
+
+.cad10:hover{
+    box-shadow: 0 5px 10px 0 rgb(194, 194, 194);
+    transition: box-shadow .2s ease 0s;
+}
+
+.cad-title10{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+    color: rgb(116,116,116);
+    position:relative;
+    left:20px
+}
+
+.button10{
+    background-color:#3d83df; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    position:relative;
+    left:160px;
+    bottom: 45px;
+}
+
+.button10:hover{
+    background-color: rgb(63, 63, 242);
+    transition: .7s;
+}
+
+#bogota{
+    height:270px;
+    width: 289px;
+}
+
+.monde4{
+position: relative;
+right:640px;
+}
+
+.buton{
+    background-color:#3d83df; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 14px;
+    font-family: Roboto,Arial,sans-serif;
+}
+.buton:hover{
+    background-color: rgb(63, 63, 242);
+    transition: .7s;
+}
+
+.sounds h1{
+    font-family: "work Sans",Arial,sans-serif;
+    font-size: 30px;
+    line-height:39px;
+}
+.sounds{
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+
+.final{
+    position: relative;
+    left:300px
+}
+
+.final p {
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 15.6px;
+    text-align: center;
+    color:#747474;
+    width:800px;
+    height: 20px;
+}
+.final .p2 {
+    position: relative;
+    bottom: 10px;
+}
+
+.final a {
+    color:#3d83df;
+}
+
+.hr{
+    color:#cdcccc;
+    margin-bottom: 30px;
+}
+
+
+
+
